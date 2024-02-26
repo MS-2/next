@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.js & next dev",
+    "dev": "node services/server.js & next dev",
     "build": "next build",
     "start": "next start"
   },

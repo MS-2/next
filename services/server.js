@@ -1,6 +1,6 @@
 import express from "express";
 import next from "next";
-import connectDB from './mongo.js'
+import connectDB from "./mongo.js";
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
@@ -10,9 +10,8 @@ app.prepare().then(() => {
   const server = express();
   console.log("🚀 ~ server.get ~ this runs before frontend:");
 
-
-    // Conectar a MongoDB Atlas
-    connectDB
+  // Conectar a MongoDB Atlas
+  connectDB;
 
   // Rutas de Express y demás configuraciones...
 
